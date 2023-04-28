@@ -1,0 +1,15 @@
+.title, .video h2{
+    text-align: center;
+}
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .videos {
+      flex-direction: column;
+    }
+  }
+  
